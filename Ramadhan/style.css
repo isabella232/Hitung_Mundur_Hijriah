@@ -19,14 +19,6 @@ html, body{
     min-height: 100vh;
     margin: 0;
 }
-html{
-    overflow-x: hidden;
-    background: fixed;
-    background-image: url(img/background1.jpg);
-    background-size: cover;
-    background-position: center;
-    backdrop-filter: blur(1.5px) brightness(.95);
-}
 .wrapper{
     margin-top: 10vh;
 }
@@ -132,8 +124,14 @@ footer a:hover{
     color: #86DD3F;
 }
 
-
-
+html{
+    overflow-x: hidden;
+    background: fixed;
+    background-image: url(img/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(1.5px) brightness(.95);
+}
 
 @media (max-width: 600px){
     .number{
