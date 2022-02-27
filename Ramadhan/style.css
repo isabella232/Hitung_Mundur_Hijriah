@@ -87,6 +87,7 @@ html, body{
     border-radius: 5vmax;
     margin-left: 1.5em;
     margin-right: 1.5em;
+    margin: 2vmax 0;
 }
 .letter {
     background: linear-gradient(to right, #6FCB24, #5AA31D);
@@ -123,15 +124,6 @@ footer a:hover{
     color: #86DD3F;
 }
 
-html{
-    overflow-x: hidden;
-    background: fixed;
-    background-image: url(img/background1.jpg);
-    background-size: cover;
-    background-position: center;
-    backdrop-filter: blur(1.5px) brightness(.95);
-}
-
 @media (max-width: 600px){
     .number{
         text-shadow: none;
@@ -151,8 +143,22 @@ html{
         display: none;
     }
     html{
+        overflow-x: hidden;
+        background: fixed;
+        background-size: cover;
+        background-position: center;
         background-image: url(img/background2.jpg);
         backdrop-filter: blur(1.5px) brightness(.69);
+    }
+}
+@media (min-width: 450px){
+    html{
+        overflow-x: hidden;
+        background: fixed;
+        background-size: cover;
+        background-position: center;
+        background-image: url(img/background1.jpg);
+        backdrop-filter: blur(1.5px) brightness(.95);
     }
 }
 @media (max-width: 300px){
